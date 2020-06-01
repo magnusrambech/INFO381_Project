@@ -1,0 +1,25 @@
+.progress-wrapper {
+  width: 100%;
+}
+.progress-outer {
+  width: 50%;
+  height: 10px;
+  margin: 15px auto;
+  background: #198093;
+}
+
+.progress-inner {
+  transition: 0.3s;
+  height: 100%;
+  background: #f1c281;
+}
+
+.progress-inner-avg > p,
+span {
+  color: white;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.progress-inner-avg::after {
+}

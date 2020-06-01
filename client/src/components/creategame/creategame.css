@@ -1,0 +1,173 @@
+label {
+  font-size: 14px;
+  align-self: flex-start;
+  color: white;
+}
+input[type="text"],
+textarea[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.creategame-wrapper {
+  display: flex;
+  background-color: #1b4b6a;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+  width: 100%;
+}
+.init-form {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1024px;
+}
+.textarea {
+  resize: none;
+}
+.textarea-big {
+  height: 200px;
+}
+.form-init-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1024px;
+}
+.form-questions-wrapper {
+  max-width: 1024px;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.question-form {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.option-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+}
+.options-container {
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.option-text {
+}
+.option-header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.chexbox-containers-wrapper {
+  width: 100%;
+}
+.checkbox-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+.checkbox-container > label {
+  font-size: 12px;
+}
+
+.addbutton {
+  margin-top: 10px;
+  box-shadow: inset 0px 1px 0px 0px #d9fbbe;
+  background: linear-gradient(to bottom, #b8e356 5%, #a5cc52 100%);
+  background-color: #b8e356;
+  border-radius: 6px;
+  border: 1px solid #83c41a;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #86ae47;
+}
+
+.createbutton {
+  width: 95%;
+  background-color: #f1c281;
+  border-radius: 10px;
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+  margin-top: 20px;
+}
+
+.nextbutton {
+  width: 100%;
+  background-color: #f1c281;
+  border-radius: 10px;
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 50px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+}
+.unclickable {
+  border: none;
+  background-color: black;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.fullscreen-modal {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
+.modal-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  z-index: 10;
+}
+.modal-text {
+  color: white;
+}
